@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GrapeCity.DioDocs.Pdf.ja" Version="5.0.0.767" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DioDocsPdfPrintLibrary\DioDocsPdfPrintLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="diodocs_startguide_excel_template.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

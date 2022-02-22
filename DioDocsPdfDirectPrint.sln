@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DioDocsPdfDirectPrint", "DioDocsPdfDirectPrint\DioDocsPdfDirectPrint.csproj", "{FD337586-CA69-4E9A-8F60-72D963EB9EDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DioDocsPdfPrintLibrary", "DioDocsPdfPrintLibrary\DioDocsPdfPrintLibrary.csproj", "{F83C9C81-7193-4440-913B-8C316F365E8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD337586-CA69-4E9A-8F60-72D963EB9EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD337586-CA69-4E9A-8F60-72D963EB9EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD337586-CA69-4E9A-8F60-72D963EB9EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD337586-CA69-4E9A-8F60-72D963EB9EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F83C9C81-7193-4440-913B-8C316F365E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83C9C81-7193-4440-913B-8C316F365E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83C9C81-7193-4440-913B-8C316F365E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83C9C81-7193-4440-913B-8C316F365E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B543E2E-9A0E-4584-AAF2-37C070361539}
+	EndGlobalSection
+EndGlobal
